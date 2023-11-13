@@ -1,0 +1,64 @@
+.statistic-content {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.statistic-info-div {
+  align-self: flex-start
+}
+
+.forecast-div {
+  background: rgb(162,73,201);
+  background: linear-gradient(90deg, rgba(162,73,201,1) 0%, rgba(85,80,226,1) 100%);
+  height: 65px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.forecast-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.statistic-li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.statistic-li-icon {
+  line-height: 0px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+}
+
+.statistic-li-text {
+  font-weight: 700;
+}
+
+.statistic-li-a {
+  color: grey;
+  font-size: 10px;
+}
+
+.help-badge {
+  line-height: 0px;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  padding: 3px;
+  background: grey;
+  right: 10px;
+  top: 10px;
+}

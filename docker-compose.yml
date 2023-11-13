@@ -1,0 +1,44 @@
+services:
+  backend:
+    build: ./backend
+    command: uvicorn src.views:app --host 0.0.0.0 --reload
+    volumes:
+      - ./backend:/app
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST=postgresql
+      - POSTGRES_PORT=5432
+    ports:
+      - "8000:8000"
+    restart: always
+    depends_on:
+      - postgresql
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+    depends_on:
+      - backend
+    environment:
+      NODE_ENV: development
+
+  postgresql:
+    image: postgres
+    expose:
+      - "5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    container_name: postgres
+    volumes:
+      - postgresql_volume:/var/lib/postgresql/data/
+    restart: always
+
+volumes:
+  postgresql_volume:

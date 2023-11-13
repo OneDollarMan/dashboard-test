@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 10px;
+  color: #fff;
+  width: 1500px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ad63c2, #5454b4);
+  -webkit-background-clip: text; /* Для поддержки в Safari/старых версиях Chrome */
+  background-clip: text;
+  color: transparent;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch {
+  margin-left: 20px;
+  background: #e7e9f5;
+  display: flex;
+  line-height: 0;
+  border-radius: 5px;
+}
+
+.theme-switch-light {
+  border-radius: 5px;
+  background: #6d53eb;
+  padding: 4px 7px;
+}
+
+.theme-switch-dark {
+  padding: 4px 7px;
+  color: black;
+}
+
+.start-button {
+  background: rgb(255,204,177);
+  background: linear-gradient(0deg, rgba(255,204,177,1) 0%, rgba(249,153,139,1) 100%);
+  font-weight: 700;
+  color: black;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.start-button:hover {
+
+}

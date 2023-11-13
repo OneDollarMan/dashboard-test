@@ -1,0 +1,17 @@
+.statistic-div {
+  margin: 10px;
+}
+
+.statistic-input, .statistic-button {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.statistic-button {
+  margin-left: 20px;
+  background: white;
+  cursor: pointer;
+}
+

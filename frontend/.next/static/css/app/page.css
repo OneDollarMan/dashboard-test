@@ -1,0 +1,175 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/Statistic.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.statistic-content {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.statistic-info-div {
+  align-self: flex-start
+}
+
+.forecast-div {
+  background: rgb(162,73,201);
+  background: linear-gradient(90deg, rgba(162,73,201,1) 0%, rgba(85,80,226,1) 100%);
+  height: 65px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.forecast-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.statistic-li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.statistic-li-icon {
+  line-height: 0px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+}
+
+.statistic-li-text {
+  font-weight: 700;
+}
+
+.statistic-li-a {
+  color: grey;
+  font-size: 10px;
+}
+
+.help-badge {
+  line-height: 0px;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  padding: 3px;
+  background: grey;
+  right: 10px;
+  top: 10px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/StatisticDatePick.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.statistic-div {
+  margin: 10px;
+}
+
+.statistic-input, .statistic-button {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.statistic-button {
+  margin-left: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/StatisticLoss.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.loss-icon, .loss-badge {
+  background: #ff747e;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/style/globals.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   background: #f6f5fa;
+
+}
+
+header, main {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.div-style {
+  border-radius: 20px;
+  background: white;
+  box-shadow: 5px 5px 20px 0px rgba(34, 60, 80, 0.2);
+  margin: 10px;
+}
+
+.statistic-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/StatisticSale.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.sale-icon {
+  background: #6f58da;
+}
+
+.sale-badge {
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/StatisticSkill.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.skill-icon, .skill-badge {
+  background: #4aefb7;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Statistic/StatisticTable.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.statistic-table-div {
+  position: relative;
+}
+
+.statistic-table {
+  width: 100%;
+  font-size: 13px;
+}
+
+.statistic-th {
+    padding: 20px;
+}
+
+.statistic-td {
+    padding: 20px;
+    text-align: center;
+}
+
+.table-badge {
+}

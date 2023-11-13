@@ -1,0 +1,20 @@
+.statistic-table-div {
+  position: relative;
+}
+
+.statistic-table {
+  width: 100%;
+  font-size: 13px;
+}
+
+.statistic-th {
+    padding: 20px;
+}
+
+.statistic-td {
+    padding: 20px;
+    text-align: center;
+}
+
+.table-badge {
+}
